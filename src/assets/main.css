@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: univia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+body {
+  background: #A6CE39;
+  background: -webkit-linear-gradient(90deg, rgba(166, 206, 57, 1) 0%, rgba(140, 181, 25, 1) 59%, rgba(118, 158, 9, 1) 86%);
+  background: -moz-linear-gradient(90deg, rgba(166, 206, 57, 1) 0%, rgba(140, 181, 25, 1) 59%, rgba(118, 158, 9, 1) 86%);
+  background: linear-gradient(90deg, rgba(166, 206, 57, 1) 0%, rgba(140, 181, 25, 1) 59%, rgba(118, 158, 9, 1) 86%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#A6CE39", endColorstr="#769E09", GradientType=1);
+}
+
+#app {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 5px;
+}
