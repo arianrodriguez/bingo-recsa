@@ -11,7 +11,7 @@ export default {
   <section class="main-section flex">
     <!--<img src="../assets/img/REGLAS.png" alt="Logo Primax" class="reglas">-->
     <div class="bingo-header flex">
-      <img src="/src/assets/img/bingo-logo-otp.png" alt="Bingo">
+      <img src="/src/assets/img/bingo-logo-cma.png" alt="Bingo">
     </div>
     <Main class="main-wrapper"/>
   </section>

@@ -10,11 +10,11 @@
 }
 
 body {
-  background: #A6CE39;
-  background: -webkit-linear-gradient(90deg, rgba(166, 206, 57, 1) 0%, rgba(140, 181, 25, 1) 59%, rgba(118, 158, 9, 1) 86%);
-  background: -moz-linear-gradient(90deg, rgba(166, 206, 57, 1) 0%, rgba(140, 181, 25, 1) 59%, rgba(118, 158, 9, 1) 86%);
-  background: linear-gradient(90deg, rgba(166, 206, 57, 1) 0%, rgba(140, 181, 25, 1) 59%, rgba(118, 158, 9, 1) 86%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#A6CE39", endColorstr="#769E09", GradientType=1);
+  background: #06A6DE;
+  background: -webkit-linear-gradient(90deg, rgba(6, 166, 222, 1) 0%, rgba(5, 127, 170, 1) 39%, rgba(4, 111, 148, 1) 63%, rgba(4, 99, 133, 1) 79%, rgba(3, 90, 120, 1) 100%);
+  background: -moz-linear-gradient(90deg, rgba(6, 166, 222, 1) 0%, rgba(5, 127, 170, 1) 39%, rgba(4, 111, 148, 1) 63%, rgba(4, 99, 133, 1) 79%, rgba(3, 90, 120, 1) 100%);
+  background: linear-gradient(90deg, rgba(6, 166, 222, 1) 0%, rgba(5, 127, 170, 1) 39%, rgba(4, 111, 148, 1) 63%, rgba(4, 99, 133, 1) 79%, rgba(3, 90, 120, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06A6DE", endColorstr="#035A78", GradientType=1);
 }
 
 #app {

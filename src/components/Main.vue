@@ -118,8 +118,8 @@
               },
               lastLetter: "",
               card_number: 1,
-              outerColor: "#A9CF46",
-              innerColor: "#6A9300",
+              outerColor: "#0C359E",
+              innerColor: "#06A6DE",
             }
         },
         methods: {
@@ -268,7 +268,7 @@
   }
 
   .bingo__header-item {
-    background-color: #6A9300;
+    background-color: #0C359E;
     width: 75px;
     color: #fff;
     font-weight: bold;
@@ -407,13 +407,13 @@
     }
 
     .outer-circle {
-        background-color: #A9CF46;
+        background-color: #0C359E;
     }
 
     .inner-circle {
         width: 80%;
         height: 80%;
-        background-color: #6A9300;
+        background-color: #06A6DE;
         margin: 10%;
     }
 

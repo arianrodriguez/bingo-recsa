@@ -67,9 +67,9 @@ export default {
 </script>
 
 <template>
-  <img src="/logo-OTP-Blanco.png" alt="Logo OTP" class="logo">
+  <img src="/logo-cma-blanco.png" alt="Logo CMA" class="logo">
   <div class="container flex">
-    <img src="/otp-hombre.png" alt="OTP" class="otp-man"/>
+    <img src="/cma-hombre.png" alt="CMA" class="otp-man"/>
     <div class="bingo-header flex">
       <img src="/src/assets/img/bingo-logo.png" alt="Bingo">
     </div>
@@ -96,13 +96,13 @@ export default {
 
 .logo {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 200px;
+  top: 2%;
+  right: 2%;
+  width: 120px;
 }
 
 .bg-map {
-  background-image: url("/src/assets/img/map.png");
+  background-image: url("/src/assets/img/map-2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -119,7 +119,7 @@ export default {
   position: absolute;
   left: 17%;
   bottom: 0%;
-  width: 20%; 
+  width: 18%; 
 }
 
 .bingo-header img {
