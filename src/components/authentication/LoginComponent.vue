@@ -119,7 +119,7 @@ export default {
   position: absolute;
   left: 17%;
   bottom: 0%;
-  width: 18%; 
+  width: 15%; 
 }
 
 .bingo-header img {
