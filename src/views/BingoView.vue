@@ -36,7 +36,7 @@ export default {
   position: absolute;
   top: 1.25rem;
   right: 1.5rem;
-  width: min(160px, 22vw);
+  width: min(120px, 18vw);
   user-select: none;
   z-index: 2;
 }
@@ -49,8 +49,10 @@ export default {
 }
 
 .bingo__logo {
-  height: clamp(56px, 10vh, 100px);
+  height: clamp(80px, 15vh, 150px);
   width: auto;
+  max-width: 90vw;
+  object-fit: contain;
   user-select: none;
 }
 
@@ -70,13 +72,13 @@ export default {
   }
 
   .bingo__brand {
-    width: 110px;
+    width: 80px;
     top: 1rem;
     right: 1rem;
   }
 
   .bingo__logo {
-    height: 64px;
+    height: 90px;
   }
 }
 </style>
