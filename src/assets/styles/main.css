@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================================================================
+   Variables de marca (recsa)
+   Centralizar la paleta aquí permite reestilizar toda la app desde un punto.
+   =========================================================================== */
+:root {
+  --color-primary: #2e7cb8;
+  --color-primary-dark: #1f5c8b;
+  --color-primary-light: #5aa0d6;
+
+  /* Acento (resaltado del número ganador en la cartilla) */
+  --color-accent: #f2a93b;
+  --color-accent-dark: #d98e1f;
+
+  --color-surface: #ffffff;
+  --color-text: #222222;
+  --color-text-muted: #6e6e6e;
+  --color-text-inverse: #ffffff;
+
+  --radius-sm: 5px;
+  --radius-md: 10px;
+  --radius-lg: 24px;
+
+  --shadow-card: -10px 5px 18px rgba(0, 0, 0, 0.18);
+  --shadow-soft: 0 0 8px rgba(0, 0, 0, 0.2);
+
+  --font-base: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* ===========================================================================
+   Reset
+   =========================================================================== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: var(--font-base);
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-primary);
+  background-image: url('/fondo-recsa.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ===========================================================================
+   Utilidades
+   =========================================================================== */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===========================================================================
+   Scrollbar
+   =========================================================================== */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: var(--radius-sm);
+}
